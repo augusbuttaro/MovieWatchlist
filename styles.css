@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(/media/header-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2em 0
+}
+.headers{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em 0;
+    align-self: stretch;
+}
+.big, .small{
+    margin: 0;
+    color:white;
+    text-shadow: 0 0 1px  rgb(146, 47, 8) ;
+
+}
+.small{
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+.search-bar{
+    display: flex;
+}
+#search-input, #search-btn{
+    padding: 0.5em 1em
+}
+.index-placeholder, .error-placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#DFDDDD;
+    font-weight: bold;
+    height: 60vh;
+    width:60vw;
+    margin:auto;
+    text-align: center;
+}
+.card{
+    display:flex;
+    padding:1em 2em;
+    border-bottom:1px solid  #DFDDDD;
+    gap:1em;
+    height: 200px;
+    font-size: 0.75rem
+}
+.poster{
+    width:20vw;
+    border-radius: 3px;
+}
+.card-right{
+    display: flex;
+    flex-direction: column;
+}
+.card-header, .card-info, .add{
+    display: flex;
+    gap:1em;
+    align-items: center;
+}
+.add-btn, .delete-btn{
+    height:2vh;
+    cursor: pointer;
+}
+.add, .rating{
+    display: flex;
+    align-items: center;
+    gap: 0.25em
+}
+.card-info{
+    gap:4em
+}
+.placeholder-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em
+}
+.placeholder-add img{
+    cursor: pointer;
+}
+#lets-add{
+    color: #363636;
+    font-size: 0.8rem;
+}
