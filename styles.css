@@ -55,12 +55,12 @@ header{
     display:flex;
     padding:1em 2em;
     border-bottom:1px solid  #DFDDDD;
-    gap:1em;
+    gap:10%;
     height: 200px;
     font-size: 0.75rem
 }
 .poster{
-    width:20vw;
+    height:100%;
     border-radius: 3px;
 }
 .card-right{
